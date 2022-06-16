@@ -125,6 +125,82 @@ h2 {
     color: white;
 }
 
+.earphones {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.earphones img {
+    width: 500px;
+    margin-top: -400px;
+    z-index: 1;
+}
+
+.features {
+    width: 100%;
+    background-color: #F8FAFE;
+    margin-top: -230px;
+    padding-bottom: 10%;
+}
+
+.features h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 8%;
+    padding-bottom: 130px;
+    padding-top: 130px;
+}
+
+
+
+.quality p {
+    font-size: 14px;
+    font-weight: light;
+    width: 321px;
+    padding-bottom: 20px;
+}
+
+.quality h4 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.quality img {
+    width: 68px;
+    height: 90px;
+    margin-left: 30%;
+    padding-bottom: 20px;
+}
+
+.featuresFirst {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featuresSecond {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.quality {
+    background-color: white;
+}
+
+
+
+
+
+
 @keyframes colorChange {
     from {
         transform: scale(1);
@@ -173,5 +249,25 @@ h2 {
 
     header {
         justify-content: space-between;
+    }
+
+    .earphones img {
+        width: 150px;
+        margin-top: -100px;
+    }
+
+    .sectionSecond h2 {
+        font-size: 25px;
+    }
+
+    .sectionSecond p {
+        margin-top: 50px;
+        font-size: 10px;
+    }
+
+    .features h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20%;
     }
 }
