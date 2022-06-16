@@ -100,6 +100,31 @@ h2 {
     display: none;
 }
 
+.sectionSecond {
+    background-image: url(../Images/Rectangle.png);
+    width: 100%;
+    height: 813px;
+    background-color: blue;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionSecond h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.sectionSecond p {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+}
+
 @keyframes colorChange {
     from {
         transform: scale(1);
